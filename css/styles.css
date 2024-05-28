@@ -1,0 +1,209 @@
+body 
+{
+  background-color: #f9e4fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header 
+{
+  background-color: #91f3f3;
+  padding: 20px;
+  text-align: center;
+  font-family:fantasy;
+  color: #f718bf;
+}
+
+nav {
+  background-color: #b501fc;
+  padding: 10px;
+  font-family: cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px;
+}
+
+li {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #f9e4fa;
+  padding: 10px;
+  display: block;
+}
+
+a:hover 
+{
+  background-color: #c357f5;
+  color: #830088;
+}
+
+section {
+  padding: 20px;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;
+  padding: 20px;
+}
+
+.texto {
+  background-color: #ffc0cb; 
+  padding: 20px;
+  border-radius: 10px; 
+  font-family: cursive;
+  font-size: 20px;
+  color: #430046;
+}
+
+.imagen {
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+}
+
+.imagen img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+
+  .header {
+    background-color: #91f3f3; 
+    padding: 20px;
+    text-align: center;
+
+}
+
+.subheader {
+    background-color: #91f3f3; 
+    padding: 20px;
+    text-align: center;
+}
+
+.subheader h2 {
+    margin: 0; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    width: 100%;
+    height: 600px;
+}
+
+.article {
+  background-color: #ffc0cb; 
+  padding: 20px;
+  border-radius: 10px; 
+  height: 400px; 
+  overflow: hidden;
+  font-family: cursive;
+  color: #430046;
+  font-size: 20px;
+}
+
+.article img {
+  width: 100%; 
+  height: 300px ; 
+  border-radius: 10px; 
+  margin-bottom: 10px;
+}
+
+.article p {
+    margin: 0;
+}
+.subtitulo-contacto {
+  background-color:#91f3f3;
+  padding: 20px; 
+  text-align: center; }
+
+.subtitulo-contacto h2 {
+  margin: 0; 
+  color: #f718bf;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+.infocontacto {
+  background-color: #ffc0cb;
+  width: 90%;
+  border-radius: 20px;
+  margin: 0 auto; 
+  font-family: cursive;
+  text-align: center;
+  color: #430046;
+  font-size: 20px;
+
+}
+
+footer {
+  background-color:#c1eefc;
+  color:rgb(250, 63, 241);
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+  header h1 {
+      font-size: 24px;
+  }
+
+  .texto {
+      font-size: 16px;
+  }
+
+  .imagen {
+      height: auto;
+  }
+
+  .subheader h2,
+  .article p {
+      font-size: 16px;
+  }
+
+  footer {
+      font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  header h1 {
+      font-size: 20px;
+  }
+
+
+  .texto {
+      font-size: 14px;
+  }
+
+  
+  .imagen {
+      height: auto;
+  }
+
+ 
+  .subheader h2,
+  .article p {
+      font-size: 14px;
+  }
+
+  footer {
+      font-size: 12px;
+  }
+}
